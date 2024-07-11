@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Cleaning enabled</label>
+		<id>IRP_vmemese_FireKeeperCleaning</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>1</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[1]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Animals enabled</label>
+		<id>IRP_vmemese_FireKeeperAnimals</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>2</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[2]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Cooking enabled</label>
+		<id>IRP_vmemese_FireKeeperCooking</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>3</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[3]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Plants enabled</label>
+		<id>IRP_vmemese_FireKeeperPlant</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>4</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[4]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Mining enabled</label>
+		<id>IRP_vmemese_FireKeeperMining</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>5</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[5]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Crafting enabled</label>
+		<id>IRP_vmemese_FireKeeperCrafting</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>6</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[6]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Constructing enabled</label>
+		<id>IRP_vmemese_FireKeeperConstructing</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>7</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[7]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Hunting enabled</label>
+		<id>IRP_vmemese_FireKeeperHunting</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>8</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[8]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Artistic enabled</label>
+		<id>IRP_vmemese_FireKeeperArtistic</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>9</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[9]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Intellectual enabled</label>
+		<id>IRP_vmemese_FireKeeperIntellectual</id>
+		<category>IRP_vmemese_FireKeeper</category>
+		<order>10</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_FireKeeper"]/roleDisabledWorkTags/li[10]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+  <packageId>VentaExtera.IdeoRolePatch</packageId>
+
+  <name>Ideo Roles Don't Forbid Work</name>
+
+  <author>VentaExtera</author>
+
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+
+  <description>"Hey, we really need some help building these walls here!"
+  
+  "Nope, can't help you. I'm a Shooting Specialist. Don't know how to build. Don't know how to mine, either."
+  
+Enough of that nonsense! This simple patch removes the forbidden work from all specialist roles. Specialists no longer have some sort of hatred for other work types just because they're good at what they do. This requires the Ideology DLC. Safe to add or remove mid-game. Feel free to request support for a specific mod, and I'll see if I can patch it.
+
+(The in-game role descriptions still say they will refuse to do other work types. Simply ignore it, they'll work.)
+
+You refuse to cook because you're good with melee weapons? Okay, buddy.</description>
+
+<modDependencies>
+  <li>
+    <packageId>Ludeon.RimWorld.Ideology</packageId>
+		<displayName>Ideology</displayName>
+  </li>
+  <li>
+		<displayName>Vanilla Expanded Framework</displayName>
+		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+		<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+	</li>
+</modDependencies>
+
+<loadAfter>
+  <li>Ludeon.RimWorld.Ideology</li>
+  <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+</loadAfter>
+
+</ModMetaData>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Crafting enabled</label>
+		<id>IRP_MeleeSpecialistCraft</id>
+		<category>IRP_MeleeSpecialist</category>
+		<order>1</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[1]</xpath>
+				    <value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Cooking enabled</label>
+		<id>IRP_MeleeSpecialistCook</id>
+		<category>IRP_MeleeSpecialist</category>
+		<order>2</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[2]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Plants enabled</label>
+		<id>IRP_MeleeSpecialistPlant</id>
+		<category>IRP_MeleeSpecialist</category>
+		<order>3</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[3]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Mining enabled</label>
+		<id>IRP_MeleeSpecialistMining</id>
+		<category>IRP_MeleeSpecialist</category>
+		<order>4</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[4]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Constructing enabled</label>
+		<id>IRP_MeleeSpecialistConstructing</id>
+		<category>IRP_MeleeSpecialist</category>
+		<order>5</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[5]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Hunting enabled</label>
+		<id>IRP_MeleeSpecialistHunting</id>
+		<category>IRP_MeleeSpecialist</category>
+		<order>6</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[6]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Shooting enabled</label>
+		<id>IRP_MeleeSpecialistShooting</id>
+		<tooltip>Also enables the use of ranged weapons</tooltip>
+		<category>IRP_MeleeSpecialist</category>
+		<order>7</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleDisabledWorkTags/li[7]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+			<li Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Ideology">
+				<xpath>Defs/PreceptDef[defName = "IdeoRole_MeleeSpecialist"]/roleEffects/li[1]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

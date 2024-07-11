@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Dummy patch has to have something to patch. Check 1.5\Patches\DummyPatch_RolePatch.xml for more info -->
+<Defs>
+    <ThingDef>
+        <defName>IRP_DummyItem</defName>
+        <label>i do nothing</label>
+        <description>why are you here</description>
+        <thingClass>Building</thingClass>
+        <category>Building</category>
+    </ThingDef>
+</Defs> 

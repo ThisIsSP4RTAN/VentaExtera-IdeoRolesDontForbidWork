@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Animals enabled</label>
+		<id>IRP_vmemese_NurseAnimals</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>1</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[1]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Cooking enabled</label>
+		<id>IRP_vmemese_NurseCooking</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>2</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[2]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Plants enabled</label>
+		<id>IRP_vmemese_NursePlant</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>3</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[3]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Mining enabled</label>
+		<id>IRP_vmemese_NurseMining</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>4</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[4]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Crafting enabled</label>
+		<id>IRP_vmemese_NurseCrafting</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>5</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[5]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Constructing enabled</label>
+		<id>IRP_vmemese_NurseConstructing</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>6</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[6]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Hunting enabled</label>
+		<id>IRP_vmemese_NurseHunting</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>7</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[7]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Artistic enabled</label>
+		<id>IRP_vmemese_NurseArtistic</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>8</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[8]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Intellectual enabled</label>
+		<id>IRP_vmemese_NurseIntellectual</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>9</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[9]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>False</defaultValue>
+		<label>Violent enabled</label>
+		<id>IRP_vmemese_NurseViolent</id>
+		<category>IRP_vmemese_Nurse</category>
+		<order>10</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Nurse"]/roleDisabledWorkTags/li[10]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

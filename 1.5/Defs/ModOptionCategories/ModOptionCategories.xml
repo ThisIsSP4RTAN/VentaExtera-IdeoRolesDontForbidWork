@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ModSettingsFramework.ModOptionCategoryDef Name="IRP_ModOptionsBase" Abstract="True">
+		<modSettingsName>Ideo Roles Don't Forbid Work</modSettingsName>
+		<modPackageSettingsID>VentaExtera.IdeoRolePatch</modPackageSettingsID>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_ShootingSpecialist</defName>
+		<label>Shooting Specialist</label>
+		<order>1</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_MeleeSpecialist</defName>
+		<label>Melee Specialist</label>
+		<order>2</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_ResearchSpecialist</defName>
+		<label>Research Specialist</label>
+		<order>3</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_PlantSpecialist</defName>
+		<label>Plant Specialist</label>
+		<order>4</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_ProductionSpecialist</defName>
+		<label>Production Specialist</label>
+		<order>5</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_MiningSpecialist</defName>
+		<label>Mining Specialist</label>
+		<order>6</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_AnimalsSpecialist</defName>
+		<label>Animals Specialist</label>
+		<order>7</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_MedicalSpecialist</defName>
+		<label>Medical Specialist</label>
+		<order>8</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<!-- For some reason after 6 or 7 categories, the last category won't appear in the mod settings, so this dummy category is here to compensate for that -->
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_DummyCategory</defName>
+		<label>DummyCategory</label>
+		<order>99</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+</Defs>

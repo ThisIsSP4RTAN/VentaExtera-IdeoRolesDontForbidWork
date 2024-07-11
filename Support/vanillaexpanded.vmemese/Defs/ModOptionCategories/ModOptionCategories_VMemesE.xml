@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_vmemese_FireKeeper</defName>
+		<label>Fire Keeper</label>
+		<order>9</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_vmemese_InsectoidHerder</defName>
+		<label>Insectoid Herder</label>
+		<order>10</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+	<ModSettingsFramework.ModOptionCategoryDef ParentName="IRP_ModOptionsBase">
+		<defName>IRP_vmemese_Nurse</defName>
+		<label>Nurse</label>
+		<order>11</order>
+	</ModSettingsFramework.ModOptionCategoryDef>
+</Defs>
