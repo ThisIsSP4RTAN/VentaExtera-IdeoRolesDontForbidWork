@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="ModSettingsFramework.PatchOperationModOption">
+		<defaultValue>True</defaultValue>
+		<label>Violent enabled</label>
+		<id>IRP_vmemese_MajordomoViolent</id>
+		<category>IRP_vmemese_Majordomo</category>
+		<order>1</order>
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VMemesE,Ludeon.RimWorld.Royalty">
+				<xpath>Defs/PreceptDef[defName = "VME_IdeoRole_Majordomo"]/roleDisabledWorkTags/li[1]</xpath>
+					<value>
+						<li></li>
+					</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
