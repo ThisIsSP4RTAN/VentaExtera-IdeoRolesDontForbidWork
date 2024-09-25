@@ -19,6 +19,9 @@ Enough of that nonsense! This simple patch removes the forbidden work from all s
 
 (The in-game role descriptions still say they will refuse to do other work types. Simply ignore it, they'll work.)
 
+===Special Thanks!===
+SP4RTAN: Took the time to help add mod options!
+
 You refuse to cook because you're good with melee weapons? Okay, buddy.</description>
 
 <modDependencies>
@@ -37,6 +40,7 @@ You refuse to cook because you're good with melee weapons? Okay, buddy.</descrip
 <loadAfter>
   <li>Ludeon.RimWorld.Ideology</li>
   <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  <li>VanillaExpanded.VMemesE</li>
 </loadAfter>
 
 </ModMetaData>
